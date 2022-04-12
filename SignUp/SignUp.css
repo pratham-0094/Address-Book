@@ -1,0 +1,110 @@
+body {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 36px;
+}
+
+div.out {
+  width: 25%;
+  margin: 110px auto;
+  padding: 10px 60px;
+  background-color: rgba(245, 245, 245, 0.438);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+}
+
+div.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div.in {
+  color: rgb(14, 31, 61);
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+img {
+  position: absolute;
+  margin: 5px;
+}
+
+input::placeholder {
+  -webkit-text-fill-color: rgb(48, 40, 47);
+}
+
+input {
+  -webkit-text-fill-color: rgb(212, 52, 31);
+}
+
+div.in input {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  height: 34px;
+  padding: 4px 50px;
+  padding-right: 20px;
+}
+
+button.signupbtn {
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 10px 25px;
+  border: 2px solid rgba(35, 10, 144, 0.589);
+  background-color: rgba(5, 234, 255, 0.274);
+  color: rgb(15, 66, 155);
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  font-weight: bold;
+}
+
+#show_password {
+  position: absolute;
+  right: 70px;
+  margin: 10px 0;
+  height: 26px;
+  width: 26px;
+}
+
+h5 {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 26px;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+}
+
+.signup {
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 89, 255);
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  margin-bottom: 17px;
+}
+
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  margin: 10px;
+}
