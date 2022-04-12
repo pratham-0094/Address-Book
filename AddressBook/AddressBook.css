@@ -1,0 +1,188 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.display_box table {
+  color: black;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0;
+  text-align: center;
+  padding: 18% 30%;
+}
+
+nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+button.logout img,
+button.search img {
+  width: 25px;
+}
+
+button.logout {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 10px;
+  padding: 6px 10px;
+  width: 110px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: unset;
+  outline: none;
+}
+
+button.logout:hover {
+  filter: invert(1);
+}
+
+h1 {
+  font-size: 55px;
+  color: black;
+  text-align: center;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+div.add_box form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.add_box div {
+  margin: 15px;
+  display: inline-block;
+}
+
+input {
+  width: 425px;
+  height: 30px;
+}
+
+button.add,
+button.search {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  height: 46px;
+  width: 80px;
+  outline: none;
+}
+
+.search_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.display_box,
+.search_box {
+  flex-wrap: wrap;
+}
+
+input,
+textarea {
+  padding: 6px;
+  color: black;
+  font-size: 20px;
+  outline: none;
+  resize: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+div.my_address {
+  color: black;
+  list-style: none;
+  background-color: black;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 32%;
+  margin: 10px 0;
+  margin-left: 12px;
+  height: 320px;
+}
+
+.my_address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_address ul li {
+  list-style: none;
+  margin: 10px 0;
+  color: white;
+}
+
+.my_address img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.change {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.delete {
+  width: 40px !important;
+}
